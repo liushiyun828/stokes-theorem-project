@@ -1,0 +1,85 @@
+[
+  {
+    "objectID": "math.html",
+    "href": "math.html",
+    "title": "The Magic of Stokes’ Theorem",
+    "section": "",
+    "text": "📐 The Bridging of Dimensions\nImagine you are walking along the boundary of a beautiful, twisting surface. As you walk, you trace a closed loop. At the same time, a mysterious fluid field flows across the entire surface itself.\nHow does the “swirl” on the surface connect to your walk along the edge? This is the grand puzzle that Stokes’ Theorem solves.\n\n\n\n🎭 The Backstory: A Exam Question from Hell?\nBefore we dive into the symbols, let’s look at a fascinating historical gossip: Sir George Gabriel Stokes did not actually prove this theorem first!\n\n\n\n\n\n\nNote📜 The True Origin\n\n\n\nThe theorem was originally discovered by Lord Kelvin (William Thomson) in a letter to Stokes in 1850. Stokes fell so in love with this geometric truth that he decided to use it as a question in the prestigious Smith’s Prize Exam at Cambridge University in 1854.\n\n\nImagine being a student in 1854, turning over your exam paper, and seeing this brand-new, unproven cornerstone of vector calculus as a “test question”! One of those students was James Clerk Maxwell—who later used this exact theorem to revolutionize electromagnetism.\n\n\n\n🧮 The Mathematical Rigor\nNow, let’s look at the elegant formula that the Cambridge students had to face. Stokes’ Theorem states that the line integral of a vector field over a closed loop is equal to the surface integral of its curl:\n\\[\\oint_{\\partial \\Sigma} \\mathbf{F} \\cdot d\\mathbf{r} = \\iint_{\\Sigma} (\\nabla \\times \\mathbf{F}) \\cdot d\\mathbf{A}\\]\n\n🔍 Breaking Down the Magic:\n\nThe Left Side (\\(\\oint_{\\partial \\Sigma}\\)): Measures the total “work” or circulation done by the vector field \\(\\mathbf{F}\\) as you walk along the very edge (\\(\\partial \\Sigma\\)) of the surface.\nThe Right Side (\\(\\iint_{\\Sigma}\\)): Steps inside the surface (\\(\\Sigma\\)) and sums up every tiny, microscopic “swirl” (\\(\\nabla \\times \\mathbf{F}\\), the curl) happening across the entire field.\n\n\n\n\n\n🌌 Visualizing the Swirl (3D Interactive)\n\n💡 Technical Director’s Note (Malo): Click and drag the 3D plot below to see how microscopic swirls inside the surface perfectly add up to create the macro rotation along the boundary!\n\n(Malo’s 3D Interactive Plot will be rendered right here!)",
+    "crumbs": [
+      "Core Topics",
+      "Stokes' Theorem"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "MAT103 Calculus Stories",
+    "section": "",
+    "text": "Welcome\nThis website is a collection of calculus stories\nWe explore mathematical ideas focusing on the remarkable journey of Stokes’ Theorem.\n\n\nWhat this project is about\nThis website tells the story of Stokes’ Theorem—-\n\nfrom its historical origins to its mathematical beauty—using intuitive examples, engaging illustrations, and interactive visualizations.\n\n\n\n👥 Meet the Team\n\nLIU SHIYUN\nWENG XIETONG\nWANG ZIHAN",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "story.html",
+    "href": "story.html",
+    "title": "Calculus Story",
+    "section": "",
+    "text": "🎭 微积分背后的那些事儿\n\n🚧 正在等待成员 A 提交他踩中讲师爽点的冷笑话故事…\n\n精彩故事，敬请期待！",
+    "crumbs": [
+      "Core Topics",
+      "Calculus Story"
+    ]
+  },
+  {
+    "objectID": "Stokes_Theorem.html",
+    "href": "Stokes_Theorem.html",
+    "title": "How to Name a Calculus Theorem After Yourself—-Stokes’ Theorem",
+    "section": "",
+    "text": "NoteGroup Information\n\n\n\nGroup: Malo\nAuthors: Liu Shiyun, Wang Zihan, Weng Xietong",
+    "crumbs": [
+      "Core Topics",
+      "Stokes' Theorem"
+    ]
+  },
+  {
+    "objectID": "Stokes_Theorem.html#as-you-might-guess-that-small-decision-would-later-have-some-very-unexpected-consequences.",
+    "href": "Stokes_Theorem.html#as-you-might-guess-that-small-decision-would-later-have-some-very-unexpected-consequences.",
+    "title": "Stokes’ Theorem—How to name a theorem after yourself",
+    "section": "As you might guess, that small decision would later have some very unexpected consequences.",
+    "text": "As you might guess, that small decision would later have some very unexpected consequences.",
+    "crumbs": [
+      "Core Topics",
+      "Stokes' Theorem"
+    ]
+  },
+  {
+    "objectID": "Stokes_Theorem.html#that-is-the-meaning-hidden-inside-the-equation.",
+    "href": "Stokes_Theorem.html#that-is-the-meaning-hidden-inside-the-equation.",
+    "title": "Stokes’ Theorem—How to name a theorem after yourself",
+    "section": "That is the meaning hidden inside the equation.",
+    "text": "That is the meaning hidden inside the equation.",
+    "crumbs": [
+      "Core Topics",
+      "Stokes' Theorem"
+    ]
+  },
+  {
+    "objectID": "Stokes_Theorem.html#explore-the-geometry-yourself",
+    "href": "Stokes_Theorem.html#explore-the-geometry-yourself",
+    "title": "How to Name a Calculus Theorem After Yourself—-Stokes’ Theorem",
+    "section": "🎮 Explore the Geometry Yourself",
+    "text": "🎮 Explore the Geometry Yourself\n\n\n                            \n                                            \n\n\nYou can press the button, rotate the figure with your mouse to explore the surface and its boundary.",
+    "crumbs": [
+      "Core Topics",
+      "Stokes' Theorem"
+    ]
+  },
+  {
+    "objectID": "new.html",
+    "href": "new.html",
+    "title": "Plotly Test",
+    "section": "",
+    "text": "import plotly.graph_objects as go\n\nfig = go.Figure(\n    data=[\n        go.Scatter(\n            x=[1,2,3],\n            y=[4,5,6]\n        )\n    ]\n)\n\nfig"
+  }
+]

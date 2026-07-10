@@ -1,0 +1,22 @@
+---
+title: "MAT103 Calculus Stories"
+---
+
+# Welcome
+
+This website is a collection of **calculus stories**
+
+We explore mathematical ideas focusing on the remarkable journey of **Stokes' Theorem**.
+
+# What this project is about
+
+This website tells the story of Stokes’ Theorem----
+
+> from its historical origins to its mathematical beauty—using intuitive examples, engaging illustrations, and interactive visualizations.
+
+---
+
+### 👥 Meet the Team
+* **LIU SHIYUN** 
+* **WENG XIETONG** 
+* **WANG ZIHAN** 
