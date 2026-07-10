@@ -1,0 +1,41 @@
+[
+  {
+    "objectID": "new.html",
+    "href": "new.html",
+    "title": "Plotly Test",
+    "section": "",
+    "text": "import plotly.graph_objects as go\n\nfig = go.Figure(\n    data=[\n        go.Scatter(\n            x=[1,2,3],\n            y=[4,5,6]\n        )\n    ]\n)\n\nfig"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "MAT103 Calculus Stories",
+    "section": "",
+    "text": "Welcome\nThis website is a collection of calculus stories\nWe explore mathematical ideas focusing on the remarkable journey of Stokes’ Theorem.\n\n\nWhat this project is about\nThis website tells the story of Stokes’ Theorem—-\n\nfrom its historical origins to its mathematical beauty—using intuitive examples, engaging illustrations, and interactive visualizations.\n\n\n\n👥 Meet the Team\n\nLIU SHIYUN\nWENG XIETONG\nWANG ZIHAN",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "Stokes_Theorem.html",
+    "href": "Stokes_Theorem.html",
+    "title": "How to Name a Calculus Theorem After Yourself—-Stokes’ Theorem",
+    "section": "",
+    "text": "NoteGroup Information\n\n\n\nGroup: Malo\nAuthors: Liu Shiyun, Wang Zihan, Weng Xietong",
+    "crumbs": [
+      "Core Topics",
+      "Stokes' Theorem"
+    ]
+  },
+  {
+    "objectID": "Stokes_Theorem.html#explore-the-geometry-yourself",
+    "href": "Stokes_Theorem.html#explore-the-geometry-yourself",
+    "title": "How to Name a Calculus Theorem After Yourself—-Stokes’ Theorem",
+    "section": "🎮 Explore the Geometry Yourself",
+    "text": "🎮 Explore the Geometry Yourself\n\n\n                            \n                                            \n\n\nYou can press the button, rotate the figure with your mouse to explore the surface and its boundary.",
+    "crumbs": [
+      "Core Topics",
+      "Stokes' Theorem"
+    ]
+  }
+]
